@@ -18,6 +18,8 @@ public class Client {
 		s = new DivStrategy();
 		e.setStrategy(s);
 		System.out.println(e.calculate(3, 4));
+		
+		System.out.println(System.getProperties());  
 
 	}
 
