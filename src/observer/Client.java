@@ -1,6 +1,9 @@
 package observer;
 
-public class Test {
+/**
+ * 客户端
+ */
+public class Client {
 
 	public static void main(String[] args) {
 		Watched girl = new ConcreteWatched();

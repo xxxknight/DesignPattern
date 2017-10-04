@@ -1,8 +1,10 @@
 package proxy.staticproxy;
 
+
 public class ProxySubject implements Subject {
 	private RealSubject realsubject;
 
+	@Override
 	public void request() {
 		this.preRequest();
 		if(realsubject ==null){
