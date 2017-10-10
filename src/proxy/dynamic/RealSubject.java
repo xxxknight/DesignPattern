@@ -1,7 +1,7 @@
-package proxy.staticproxy;
+package proxy.dynamic;
 
 /**
- * 真实主题
+ *
  */
 public class RealSubject implements Subject {
 

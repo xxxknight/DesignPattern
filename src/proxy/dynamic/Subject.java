@@ -1,8 +1,5 @@
-package proxy.staticproxy;
+package proxy.dynamic;
 
-/**
- * 主题
- */
 public interface Subject {
      void request();
 }

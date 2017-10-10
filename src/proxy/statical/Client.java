@@ -1,4 +1,4 @@
-package proxy.staticproxy;
+package proxy.statical;
 
 /**
  *
