@@ -1,4 +1,4 @@
-package strategy2;
+package strategy.e2;
 
 import java.util.ArrayList;
 import java.util.List;

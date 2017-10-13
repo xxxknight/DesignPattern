@@ -1,4 +1,4 @@
-package strategy2;
+package strategy.e2;
 
 public class Person {
 	private int id;

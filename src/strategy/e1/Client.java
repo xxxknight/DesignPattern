@@ -1,4 +1,4 @@
-package strategy;
+package strategy.e1;
 
 public class Client {
 
