@@ -11,7 +11,7 @@ public class Client {
 
         Meal meal = waiter.construct();
 
-        System.out.println("");
+        System.out.println("start meal.");
         System.out.println(meal.getFood());
         System.out.println(meal.getDrink());
     }

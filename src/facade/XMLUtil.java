@@ -1,4 +1,4 @@
-package builder;
+package facade;
 
 import java.io.File;
 
@@ -15,7 +15,7 @@ public class XMLUtil {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("src/builder/config.xml"));
+            doc = builder.parse(new File("src/facade/config.xml"));
 
             NodeList nl = doc.getElementsByTagName("className");
             Node classNode = nl.item(0).getFirstChild();

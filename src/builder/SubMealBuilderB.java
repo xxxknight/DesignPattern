@@ -1,11 +1,13 @@
 package builder;
 
 public class SubMealBuilderB extends MealBuilder {
+    @Override
     public void buildFood() {
-        meal.setFood("");
+        meal.setFood("food B");
     }
 
+    @Override
     public void buildDrink() {
-        meal.setDrink("");
+        meal.setDrink("drink B");
     }
 }
